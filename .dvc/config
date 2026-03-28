@@ -1,4 +1,7 @@
 [core]
-    remote = hf
-['remote "hf"']
-    url = https://huggingface.co/datasets/nguyenlethienlyy/sentiment-dvc-data
+    remote = dagshub
+['remote "dagshub"']
+    url = https://dagshub.com/nguyenlethienlyy/dvc-data.dvc
+    auth = basic
+    user = nguyenlethienlyy
+    password = b7cb678fdfe2ffd594042f8e1fc68b2e4db99bf7
